@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIP | Official Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!-- Overlay Masuk -->
+    <div id="enter-overlay" onclick="enterWebsite()">
+        <div class="enter-content">
+            <div class="pulse-ring"></div>
+            <div class="enter-text">TEKAN UNTUK MASUK</div>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="particles-js"></div>
+    
+    <nav class="nav-pro animate__animated animate__fadeInDown">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <!-- GANTI LOGO GAMBAR DI SINI -->
+                    <div class="logo-wrapper">
+                        <img src="apip.png" alt="Logo" class="logo-image-main">
+                        <!-- Jika ingin teks logo saja, hapus img di atas dan gunakan logo-box -->
+                        <!-- <div class="logo-box">M</div> -->
+                    </div>
+                    <span>APIP</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang</a>
+                    <a href="/tools/obfuscator.html" class="nav-highlight">Tools</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="header-pro">
+        <div class="container">
+            <div class="header-grid">
+                <div class="header-text">
+                    <div class="badge-wrapper animate__animated animate__fadeInLeft">
+                        <span class="badge">PRO DEVELOPER</span>
+                    </div>
+                    <h1 class="animate__animated animate__fadeInLeft animate__delay-1s">
+                        Official Portfolio <br><span class="highlight">APIP</span>
+                    </h1>
+                    <p class="lead animate__animated animate__fadeInLeft animate__delay-2s">
+                        Welcome to M.AFIEZ.R's official space. Specialist in Cyber Security, Programming, and Cyberbullying Prevention.
+                    </p>
+                    
+                    <div class="header-stats animate__animated animate__fadeInUp animate__delay-3s">
+                        <div class="stat-item">
+                            <span class="stat-num">15</span>
+                            <span class="stat-txt">Age</span>
+                        </div>
+                        <div class="stat-item highlight-stat">
+                            <span id="birthday-countdown" class="stat-num">--:--</span>
+                            <span class="stat-txt">Next Birthday</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links animate__animated animate__fadeInUp animate__delay-3s">
+                        <a href="https://www.tiktok.com/@antc.store1" target="_blank" class="social-btn"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/apipajalahh" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="https://discord.gg/xWJxfY3G4h" target="_blank" class="social-btn"><i class="fab fa-discord"></i></a>
+                        <a href="https://discord.gg/pAT5NFvnkf" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="header-image-container animate__animated animate__zoomIn animate__delay-1s">
+                    <div class="profile-glow"></div>
+                    <div class="profile-frame">
+                        <div class="avatar-badge"> Putri Naila 🩵🩷 </div>
+                        <img src="nara.png" alt="M.AFIEZ.R" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-grid">
+                <div class="banner-card reveal-bottom">
+                    <div class="banner-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cyber Security</h3>
+                    <p>Expert in vulnerability assessment and data protection.</p>
+                </div>
+                <div class="banner-card reveal-bottom" style="transition-delay: 0.1s">
+                    <div class="banner-icon"><i class="fas fa-code"></i></div>
+                    <h3>Coding Expert</h3>
+                    <p>Mastering Node.js, Lua, and secure script development.</p>
+                </div>
+                <div class="banner-card reveal-bottom" style="transition-delay: 0.2s">
+                    <div class="banner-icon"><i class="fas fa-bullhorn"></i></div>
+                    <h3>Cyberbullying Expert</h3>
+                    <p>Advocating for a safer and better digital environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-pro">
+        <div class="container">
+            <div class="section-title reveal-left">
+                <span class="sub-title">MY VENTURES</span>
+                <h2>Founder & Communities</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="grid-2">
+                <div class="card-pro reveal-bottom">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <i class="fas fa-briefcase card-icon-main"></i>
+                            <span class="card-tag">BUSINESS</span>
+                        </div>
+                        <h3>ANTC Store</h3>
+                        <p>Layanan profesional untuk solusi digital dan gaming. Kami menyediakan platform terpercaya untuk kebutuhan komunitas Anda.</p>
+                        <div class="card-footer">
+                            <span class="founder-label">FOUNDER</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-pro reveal-bottom" style="transition-delay: 0.2s">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <i class="fab fa-github card-icon-main"></i>
+                            <span class="card-tag">COMMUNITY</span>
+                        </div>
+                        <h3>GitHub Official</h3>
+                        <p>A hub for developers to share scripts, bot indexes, and coding solutions for WA, Discord, and more.</p>
+                        <div class="card-footer">
+                            <span class="community-label">OFFICIAL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-premium reveal-bottom">
+        <div class="container">
+            <div class="cta-glass">
+                <h2>Secure Your Scripts</h2>
+                <p>Use our professional obfuscation tool to protect your intellectual property.</p>
+                <div class="cta-btns">
+                    <a href="/tools/obfuscator.html" class="btn-primary-glow">OPEN TOOLS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer-pro">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <span>APIP CONTACT</span>
+                    </div>
+                    <p>Building a secure future through code and community leadership.</p>
+                </div>
+                <div class="footer-contact-info">
+                    <h3>Get In Touch</h3>
+                    <p class="phone-link"><i class="fas fa-phone-alt"></i> +62 813-3003-2894</p>
+                    <a href="https://wa.me/6281330032894" class="btn-wa">CONNECT ON WHATSAPP</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 APIP WEB | PROTECTED BY ANTC HUB TIM</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
